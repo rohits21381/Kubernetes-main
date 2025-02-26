@@ -10,6 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
+  host:rohitsh.in
   - http:
       paths:
       - path: /nginx(/|$)(.*)
